@@ -12,12 +12,23 @@
   <div class="container">
     <div class="item">1</div>
     <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">4</div>
+    <div class="item">4</div>
+    <div class="item">4</div>
+    <div class="item">4</div>
+    <div class="item">4</div>
+    <div class="item">4</div>
   </div>
 
   <style>
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-columns: 200px 50px;
+      grid-auto-flow: column; //ew dont know why you would use this?
+      grid-auto-columns: 200px;
     }
   </style>
 </body>

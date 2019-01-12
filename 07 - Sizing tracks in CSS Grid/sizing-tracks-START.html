@@ -30,7 +30,12 @@
   <style>
     .container {
       display: grid;
+      height: 500px;
       grid-gap: 20px;
+      /* grid-template-columns: 25% 25% 25% 25%; //causes horizontal scroll */
+      grid-template-columns: auto 1fr;
+      /* fr = fractional unit */
+      border: 10px solid var(--yellow);
     }
   </style>
 </body>
